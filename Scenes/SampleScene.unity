@@ -983,8 +983,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "build: 51202\n\n\u0421\u0430\u0439\u0442: \n\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439
-    Github: \n\nAlgoBase by kitfatr \xA9\n2025 "
+  m_Text: "build: 60108\n\n\u0421\u0430\u0439\u0442: \n\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439
+    Github: \n\nAlgoBase by kitfatr \xA9\n2026"
 --- !u!222 &206389019
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3699,8 +3699,6 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
-  - component: {fileID: 519420034}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3826,34 +3824,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a7b5eb77deaff04292e396f7615a48c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &519420034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_MaxRayIntersections: 0
 --- !u!1 &526936705
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,6 +4225,9 @@ MonoBehaviour:
   c_model: {fileID: 253889075}
   rmodel: {fileID: 1645941857}
   c_rmodel: {fileID: 253889074}
+  note_0: {fileID: 2800000, guid: 085d60391b7204341b9fd41f3e70bc5d, type: 3}
+  note_1: {fileID: 2800000, guid: 6cacaa72dcb71924695174039cd5b25d, type: 3}
+  note_2: {fileID: 2800000, guid: ffa11524b44d9a848ac33a4da15d5fa5, type: 3}
   cam: {fileID: 519420028}
 --- !u!1 &569017252
 GameObject:
@@ -8258,7 +8231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'build: 51216'
+  m_Text: 'build: 60108'
 --- !u!222 &1235990985
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10415,6 +10388,7 @@ GameObject:
   - component: {fileID: 1645941858}
   - component: {fileID: 1645941857}
   - component: {fileID: 1645941856}
+  - component: {fileID: 1645941859}
   m_Layer: 0
   m_Name: model
   m_TagString: Untagged
@@ -10515,6 +10489,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645941854}
   m_Mesh: {fileID: 1324266183358550374, guid: ddc6187918e1c074e9b45eff29807e69, type: 3}
+--- !u!114 &1645941859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645941854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7b5eb77deaff04292e396f7615a48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  sens: 20
 --- !u!1 &1682287557
 GameObject:
   m_ObjectHideFlags: 0

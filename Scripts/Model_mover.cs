@@ -1,20 +1,46 @@
 using UnityEngine;
+using System.Collections;
 
 public class Model_mover : MonoBehaviour
 {
-    void Update()
+	private Vector3 target;
+	private Quaternion main, qtarget;
+	private bool inTrig;
+	public float speed, sens;
+	
+	void Start()
 	{
-		if ((Input.touchCount > 0) && (Input.touches[0].phase == TouchPhase.Began))
+		main = transform.rotation;
+	}
+	
+	void Update()
+	{
+		if (Input.GetMouseButtonDown(0) && Input.mousePosition.x < 500 && Input.mousePosition.y < 500)
 		{
-			Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-			RaycastHit hit;
-			if (Physics.Raycast(ray, out hit))
-			{
-				if (hit.collider != null)
-				{
-					Debug.Log("Got it!");
-				}
-			}
+			inTrig = true;
 		}
+		else if (Input.GetMouseButton(0) && inTrig)
+		{
+			Quaternion now;
+			
+			target = new Vector3(-Input.mousePosition.x * sens + 500 * sens, -Input.mousePosition.y * sens + 280 * sens, 40000);
+			// Debug.Log(target);
+			
+			now = transform.rotation;
+			transform.LookAt(target);
+			qtarget = transform.rotation;
+			transform.rotation = now;
+			
+			transform.rotation = Quaternion.Slerp(transform.rotation, qtarget, Time.deltaTime * speed);
+        }
+		else if (Input.GetMouseButtonUp(0))
+		{
+			inTrig = false;
+		}
+		else
+		{
+			transform.rotation = Quaternion.Slerp(transform.rotation, main, Time.deltaTime * speed);
+		}
+		
 	}
 }

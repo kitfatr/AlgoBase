@@ -13,6 +13,7 @@ public class lessons : MonoBehaviour
 	
 	public MeshFilter model, c_model;
 	public MeshRenderer rmodel, c_rmodel;
+	public Texture note_0, note_1, note_2;
 	
 	public GameObject cam;
 	private bool next_doing, prev_doing;
@@ -288,6 +289,10 @@ public class lessons : MonoBehaviour
 		{
 			model_name = "algo_list";
 		}
+		else if (i == 4 || i == 5 || i == 6)
+		{
+			model_name = "note";
+		}
 		else if (i == 7)
 		{
 			model_name = "asig";
@@ -314,6 +319,19 @@ public class lessons : MonoBehaviour
 		}
 		model.mesh = Resources.Load<Mesh>(model_name);
 		rmodel.material = Resources.Load<Material>(model_name);
+		
+		if (i == 4)
+		{
+			rmodel.material.SetTexture("_BaseMap", note_0);
+		}
+		else if (i == 5)
+		{
+			rmodel.material.SetTexture("_BaseMap", note_1);
+		}
+		else if (i == 6)
+		{
+			rmodel.material.SetTexture("_BaseMap", note_2);
+		}
 	}
 	
 	public void Set_Article_Model_Copy(int i)
@@ -334,6 +352,10 @@ public class lessons : MonoBehaviour
 		else if (i == 3)
 		{
 			model_name = "algo_list";
+		}
+		else if (i == 4 || i == 5 || i == 6)
+		{
+			model_name = "note";
 		}
 		else if (i == 7)
 		{
@@ -361,6 +383,19 @@ public class lessons : MonoBehaviour
 		}
 		c_model.mesh = Resources.Load<Mesh>(model_name);
 		c_rmodel.material = Resources.Load<Material>(model_name);
+		
+		if (i == 4)
+		{
+			c_rmodel.material.SetTexture("_BaseMap", note_0);
+		}
+		else if (i == 5)
+		{
+			c_rmodel.material.SetTexture("_BaseMap", note_1);
+		}
+		else if (i == 6)
+		{
+			c_rmodel.material.SetTexture("_BaseMap", note_2);
+		}
 	}
 	
 	public void Set_Article_Next()
