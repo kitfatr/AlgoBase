@@ -983,7 +983,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "build: 60108\n\n\u0421\u0430\u0439\u0442: \n\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439
+  m_Text: "build: 60202\n\n\u0421\u0430\u0439\u0442: \n\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0439
     Github: \n\nAlgoBase by kitfatr \xA9\n2026"
 --- !u!222 &206389019
 CanvasRenderer:
@@ -4214,9 +4214,11 @@ MonoBehaviour:
   c_code_para_python: {fileID: 1818019682}
   c_code_para_c: {fileID: 1872661492}
   code_plate: {fileID: 1981297784}
+  alg: {fileID: 1783104562}
   python: {fileID: 1891472476}
   c: {fileID: 1354324693}
   c_code_plate: {fileID: 686508916}
+  c_alg: {fileID: 1719750612}
   c_python: {fileID: 292842204}
   c_c: {fileID: 505226211}
   prev: {fileID: 2016129453}
@@ -6354,7 +6356,7 @@ MonoBehaviour:
     m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 24
+    m_MinSize: 0
     m_MaxSize: 72
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -13626,7 +13628,7 @@ MonoBehaviour:
     m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 24
+    m_MinSize: 0
     m_MaxSize: 72
     m_Alignment: 0
     m_AlignByGeometry: 0
