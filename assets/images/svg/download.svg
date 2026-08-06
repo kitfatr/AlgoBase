@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="108" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <symbol height="24px" id="svg_21" viewBox="0 -960 960 960" width="24px" xmlns="http://www.w3.org/2000/svg">
+   <path d="m480,-540zm-400,380l0,-80l400,0l0,80l-400,0zm120,-120q-33,0 -56.5,-23.5t-23.5,-56.5l0,-360q0,-33 23.5,-56.5t56.5,-23.5l560,0q33,0 56.5,23.5t23.5,56.5l-640,0l0,360l280,0l0,80l-280,0zm600,40l0,-320l-160,0l0,320l160,0zm-180,80q-25,0 -42.5,-17.5t-17.5,-42.5l0,-360q0,-25 17.5,-42.5t42.5,-17.5l200,0q25,0 42.5,17.5t17.5,42.5l0,360q0,25 -17.5,42.5t-42.5,17.5l-200,0zm100,-300q13,0 21.5,-9t8.5,-21q0,-13 -8.5,-21.5t-21.5,-8.5q-12,0 -21,8.5t-9,21.5q0,12 9,21t21,9zm0,60z"/>
+  </symbol>
+ </defs>
+ <g class="layer" display="inline">
+  <title>Layer 1</title>
+  <path d="m0,7.98c0,-4.41 3.58,-7.98 7.99,-7.98l91.92,0c4.42,0 7.99,3.57 7.99,7.98l0,23.94c0,4.41 -3.58,7.98 -7.99,7.98l-91.92,0c-4.42,0 -7.99,-3.57 -7.99,-7.98l0,-23.94z" fill="#EBEDF0" id="svg_4"/>
+  <path clip-rule="evenodd" d="m19.36,31.87c-5.41,0 -8.12,0 -9.79,-1.68c-1.68,-1.67 -1.68,-4.36 -1.68,-9.74l0,-0.95c0,-5.38 0,-8.08 1.68,-9.74c1.67,-1.68 4.38,-1.68 9.79,-1.68l0,0l0.96,0l0,0c5.41,0 8.12,0 9.79,1.68c1.68,1.67 1.68,4.36 1.68,9.74l0,0.95c0,5.38 0,8.08 -1.68,9.74c-1.67,1.68 -4.38,1.68 -9.79,1.68l-0.96,0z" fill="#444444" fill-rule="evenodd" id="svg_5"/>
+  <use fill="#ebedf0" href="#svg_21" id="svg_22" transform="matrix(0.904167 0 0 0.937106 9.20119 8.4094)"/>
+  <text fill="#000000" font-family="Sans-serif" font-size="9" id="svg_26" lengthAdjust="spacing" stroke-width="0" style="cursor: move;" text-anchor="middle" x="72" xml:space="preserve" y="16">Загрузите для</text>
+  <text fill="#000000" font-family="Sans-serif" font-size="19" id="svg_27" stroke-width="0" text-anchor="middle" x="54" xml:space="preserve" y="32">ПК</text>
+ </g>
+</svg>
