@@ -35,4 +35,69 @@
     nav h3 {
         font-size: 5vmax;
     }
+
+    address {
+        overflow-wrap: anywhere;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h4 {
+        font-size: 3vmax;
+        padding-left: 2%;
+    }
+
+    p, ol, summary {
+        font-size: 14pt;
+    }
+
+    .label-main {
+        grid-auto-flow: row;
+        justify-items: center;
+    }
+
+    #label-big {
+        justify-items: center;
+        text-align: center;
+    }
+
+    .download-instructions {
+        display: block;
+    }
+
+    footer {
+        grid-auto-flow: row;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #label-text {
+        font-size: 0;
+    }
+
+    h1#label-big-text {
+        font-size: 7vmax;
+    }
+
+    h2#label-big-text {
+        font-size: 3vmax;
+    }
+
+    :where(.label-main) img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #label-icon {
+        max-width: 0;
+    }
+
+    .label {
+        max-width: 0;
+    }
+
+    nav {
+        justify-content: center;
+    }
 }
