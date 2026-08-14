@@ -1,4 +1,4 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-aspect-ratio: 1.5) {
     #main {
         padding: 2%;
     }
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-aspect-ratio: 0.9) {
     h4 {
         font-size: 3vmax;
         padding-left: 2%;
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-aspect-ratio: 0.75) {
     #label-text {
         font-size: 0;
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-aspect-ratio: 0.5) {
     #label-icon {
         max-width: 0;
     }
