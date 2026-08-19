@@ -105,6 +105,12 @@ nav {
     grid-auto-flow: column;
     align-items: center;
     gap: 10px;
+    min-width: max-content;
+}
+
+:where(.download-buttons) {
+    min-width: max-content;
+    min-height: 40px;
 }
 
 #label-icon {
