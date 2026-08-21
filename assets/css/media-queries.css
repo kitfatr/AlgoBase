@@ -70,7 +70,7 @@
     } */
 
     li {
-        margin-left: 6mm;
+        margin-left: 8mm;
     }
 
     article, address {
@@ -92,11 +92,11 @@
     }
 
     #label-icon {
-        height: 10mm;
+        height: 25mm;
     }
 
     #download-buttons {
-        height: 10mm;
+        height: 25mm;
     }
 }
 
