@@ -69,8 +69,12 @@
         grid-auto-flow: row;
     } */
 
+    li {
+        margin-left: 2mm;
+    }
+
     article, address {
-        font-size: 4mm;
+        font-size: 3mm;
     }
 }
 
@@ -88,7 +92,12 @@
     }
 
     :where(.label-main) img {
-        max-width: 50%;
+        height: 20mm;
+        width: 20mm;
+    }
+
+    .label .download-buttons {
+        height: 10mm;
     }
 }
 
