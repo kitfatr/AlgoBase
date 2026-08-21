@@ -24,10 +24,6 @@
         max-width: 100%;
     }
 
-    img {
-        max-width: 100%;
-    }
-
     th, tr {
         font-size: 2.5vmax;
     }
@@ -70,7 +66,7 @@
     } */
 
     li {
-        margin-left: 8mm;
+        margin-left: 4mm;
     }
 
     article, address {
@@ -92,7 +88,8 @@
     }
 
     #label-icon {
-        height: 25mm;
+        max-height: 25mm;
+        max-width: 25mm;
     }
 
     #download-buttons {
