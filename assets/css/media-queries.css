@@ -70,7 +70,7 @@
     } */
 
     li {
-        margin-left: 2mm;
+        margin-left: 3mm;
     }
 
     article, address {
@@ -91,12 +91,11 @@
         font-size: 3vmax;
     }
 
-    :where(.label-main) img {
-        height: 20mm;
-        width: 20mm;
+    #label-icon {
+        height: 10mm;
     }
 
-    .label .download-buttons {
+    #download-buttons {
         height: 10mm;
     }
 }

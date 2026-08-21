@@ -13,6 +13,10 @@ header {
     z-index: 1;
 }
 
+:where(header) a {
+    text-decoration: none;
+}
+
 .label-main {
     display: grid;
     grid-auto-flow: column;
@@ -203,7 +207,6 @@ main {
 footer {
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-between;
     align-items: center;
     background-color: ghostwhite;
     border-radius: 20px 20px 0px 0px;
